@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "firstmod",
+  "version": "${version}",
+  "name": "Firstmod",
+  "description": "A Mod that adds a lot of new ores and mobs!",
+  "authors": [
+    "Lipeedev"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/lipeedev"
+  },
+  "license": "CC0-1.0",
+  "icon": "assets/firstmod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "dev.lipee.Firstmod"
+    ],
+    "fabric-datagen": [
+      "dev.lipee.FirstmodDataGenerator"
+    ]
+  },
+  "mixins": [
+    "firstmod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.7",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

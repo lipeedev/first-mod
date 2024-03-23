@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "# #",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "firstmod:lunar_stone"
+    }
+  },
+  "result": {
+    "item": "firstmod:lunar_stone_chestplate",
+    "count": 1
+  }
+}

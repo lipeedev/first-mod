@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " ##",
+    " $#",
+    " $ "
+  ],
+  "key": {
+    "#": {
+      "item": "firstmod:lunar_stone"
+    },
+    "$": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "firstmod:lunar_stone_axe",
+    "count": 1
+  }
+}
